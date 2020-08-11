@@ -5,7 +5,7 @@ export default (source) => {
 
 	if (imports) {
 		const code = [
-			'const parts = [];',
+			'var parts = [];',
 			`parts.push(${JSON.stringify(stripIgnoredCharacters(source.replace(/^#\s*import.*$/, '')))});`,
 			imports
 				.map(input => input.trim())
