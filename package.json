@@ -1,0 +1,32 @@
+{
+  "name": "graphql-string-loader",
+  "version": "1.0.0",
+  "description": "Webpack loader that imports GraphQL queries as strings.",
+  "main": "graphql-string-loader.js",
+  "scripts": {
+    "build": "yarn tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/einartryggvi/graphql-string-loader.git"
+  },
+  "keywords": [
+    "graphql",
+    "webpack",
+    "loader",
+    "apollo"
+  ],
+  "author": "Einar Tryggvi Leifsson <einartryggvi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/einartryggvi/graphql-string-loader/issues"
+  },
+  "homepage": "https://github.com/einartryggvi/graphql-string-loader#readme",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "graphql": "^15.3.0"
+  }
+}
